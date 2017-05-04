@@ -8,5 +8,16 @@ First off, install [node.js](https://nodejs.org/en/) locally. Next you'll need t
 
 ```
 $ npm install
+```
+
+To run our tests, we will first need to run our server:
+
+```
+$ node app/server.js
+```
+
+We can now run our tests with npm test in a separate shell session:
+
+```
 $ npm test
 ```
